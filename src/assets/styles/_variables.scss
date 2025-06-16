@@ -1,0 +1,111 @@
+:root {
+  /* COLORES PRINCIPALES - ESQUEMA BLANCO/GRIS */
+  --primary-yellow: #FFCA28;
+  --primary-yellow-light: #FFF8E1;
+  --primary-yellow-dark: #FFB300;
+
+  /* GRISES SUAVES PARA FONDOS */
+  --neutral-white: #FFFFFF;
+  --neutral-gray-50: #FAFAFA;
+  --neutral-gray-100: #F5F5F5;
+  --neutral-gray-200: #EEEEEE;
+  --neutral-gray-300: #E0E0E0;
+  --neutral-gray-400: #BDBDBD;
+  --neutral-gray-500: #9E9E9E;
+  --neutral-gray-600: #757575;
+  --neutral-gray-700: #616161;
+  --neutral-gray-800: #424242;
+  --neutral-gray-900: #212121;
+
+  /* FONDOS PRINCIPALES */
+  --surface-0: #FFFFFF;
+  --surface-50: #FAFAFA;
+  --surface-100: #F5F5F5;
+  --surface-200: #EEEEEE;
+  --surface-300: #E0E0E0;
+  --background-gray: #FAFAFA;
+  --surface-ground: #F5F5F5;
+  --surface-card: #FFFFFF;
+  --surface-section: #FAFAFA;
+  --surface-overlay: #FFFFFF;
+  --surface-border: #E0E0E0;
+  --surface-hover: rgba(0,0,0,0.04);
+
+  /* TEXTO */
+  --text-primary: #212121;
+  --text-secondary: #616161;
+  --text-muted: #9E9E9E;
+  --text-inverse: #FFFFFF;
+  --text-color: #212121;
+  --text-color-secondary: #616161;
+
+  /* COLORES DE ESTADO */
+  --error-color: #F44336;
+  --error-light: #FFEBEE;
+  --warning-color: #FF9800;
+  --warning-light: #FFF3E0;
+  --success-color: #4CAF50;
+  --success-light: #E8F5E8;
+  --info-color: #2196F3;
+  --info-light: #E3F2FD;
+
+  /* BORDES */
+  --border-color: #E0E0E0;
+  --border-color-light: #EEEEEE;
+  --primary-color: #2196F3;
+
+  /* ESPACIADO */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* BORDER RADIUS */
+  --border-radius: 4px;
+  --border-radius-sm: 2px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 8px;
+  --border-radius-xl: 12px;
+  --border-radius-2xl: 16px;
+
+  /* SOMBRAS SUTILES */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-xl: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* FUENTES */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+
+  /* TRANSICIONES */
+  --transition-normal: all 0.2s ease;
+  --transition-fast: all 0.15s ease;
+  --transition-slow: all 0.3s ease;
+
+  /* Z-INDEX */
+  --z-base: 1;
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-tooltip: 1060;
+
+  /* LAYOUT */
+  --topbar-height: 64px;
+  --sidebar-width: 200px;
+  --content-max-width: 1200px;
+}

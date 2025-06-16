@@ -101,7 +101,7 @@ src/app/
 
 ## 📱 Responsive Features
 
-- **Móvil**: Sidebar collapsible, tabla con scroll
+- **Móvil**: 50% responsive
 - **Desktop**: Experiencia completa
 
 ## 🔧 API Endpoints
